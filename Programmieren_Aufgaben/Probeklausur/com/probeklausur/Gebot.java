@@ -9,6 +9,24 @@ public class Gebot {
 		bieter = b;
 		this.maxGebot = maxGebot;
 	}
+
+	public double getMaxGebot() {
+		return maxGebot;
+	}
+
+	public void setMaxGebot(double maxGebot) {
+		this.maxGebot = maxGebot;
+	}
+
+	public Bieter getBieter() {
+		return bieter;
+	}
+
+	public void setBieter(Bieter bieter) {
+		this.bieter = bieter;
+	}
+	
+	
 	
 	
 }
